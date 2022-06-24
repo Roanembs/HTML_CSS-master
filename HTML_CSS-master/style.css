@@ -1,0 +1,58 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+
+.mom {
+  margin-top: 5%;
+  margin-left: auto; /* Try setting this to 400px or something */
+  display: table;
+  text-align: center;
+  text-indent: 5%;
+  border: 1px solid #444444;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.child {
+  display: table-cell;
+  text-align:justify
+}
+
+.primeiro{
+  font-size:medium;
+  text-align:left
+}
+
+.child:first-child .childinner {
+  margin-left: 0;
+}
+
+.paginas{
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inicio{
+  margin-top: 1%;
+  margin-left: 50px;
+  height: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: 1px solid #222222;
+  background-color: gray;
+}
+
+.integrantes{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid black;
+}
+
+.familia{
+  margin-top: 5%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
